@@ -8,7 +8,7 @@ connection = sqlite3.connect('bands.db')
 #With cursor, we can interact with the database or manipulate our data 
 cursor = connection.cursor()
 
-#This adds one row of data to our table. Executing file multiple times will result in duplicate rows!
+#Create table using SQL syntax
 cursor.execute('''CREATE TABLE IF NOT EXISTS Music
     (Band TEXT, Singer TEXT, Year INT)''')
 
