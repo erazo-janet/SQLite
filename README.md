@@ -1,5 +1,5 @@
 # SQL Lite
-Use SQLite with Python
+SQLite is a serverless, transactional database engine that allows users to work with python with the sqlite3 module. SQLite is light in terms of setup and resources. It does not require a server to run, and the databses created are local with files stored on your disk. This is a great tool for databse prototyping, praticing, and more. 
 
 # SQL Alchemy
 SQLAlchemy is an ORM - Object Relational Mapping - tool that allows us to work with python (or any language) instead of SQL to query and manipulate the database. SQLAlchemy integates with SQLite, MySQL, Postgres.
