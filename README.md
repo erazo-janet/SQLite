@@ -1,4 +1,4 @@
-# SQL Lite
+# SQLite
 SQLite is a serverless, transactional database engine that allows users to work with python with the sqlite3 module. SQLite is light in terms of setup and resources. It does not require a server to run, and the databses created are local with files stored on your disk. This is a great tool for databse prototyping, praticing, and more. 
 
 # SQL Alchemy
