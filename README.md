@@ -27,11 +27,11 @@ Once you have Python and PIP installed, you are ready to install SQLAlchemy.
 Once pip and SQLAlchemy is installed, you are ready to install and create yout virtual enviroment. 
 Run the following command to install:
 ```
-     C:\Users\janet\OneDrive\Documents>pip install virtualenv
+     C:\Users\janet\python39\Scripts>pip install virtualenv
  ``` 
 Check the version:
 ```
-     C:\Users\janet\python39\Scripts> virtualenv --version
+     C:\Users\janet\python39\Scripts>virtualenv --version
 ```
 
 Create workspace, give it a name! I will name my workspace sqlalchemy_workspace:
