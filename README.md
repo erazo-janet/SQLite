@@ -12,9 +12,28 @@ PIP is pythons package manager used to install and update packages. To install P
 4. Use dir to check what is in your directory
   You will see the folder you want to select. Run cd foldername
   Verify your folder is there by using dir again
-  When you have  navigated to the correct folder, run python get-pip.py
-  
+  When you have  navigated to the correct folder, run python get-pip.py:
+```
+    C:\Users\janet\OneDrive\Documents>python get-pip.py
+```
+
 # Install SQLAlchemy:
 Once you have Python and PIP installed, you are ready to install SQLAlchemy. 
+ ```
+     C:\Users\janet\OneDrive\Documents>pip install sqlalchemy 
+```
 
 # Create VirtualEnviroment for your SQLAlchemy workspace
+Once pip and SQLAlchemy is installed, you are ready to install and create yout virtual enviroment. 
+Run the following command to install:
+```
+     C:\Users\janet\OneDrive\Documents>pip install virtualenv
+ ``` 
+Check the version:
+```
+     C:\Users\janet\python39\Scripts> virtualenv --version
+```
+
+Create workspace, give it a name! I will name my workspace sqlalchemy_workspace:
+     C:\Users\janet\python39\Scripts> virtualenv sqlalchemy_workspace
+
